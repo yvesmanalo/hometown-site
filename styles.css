@@ -1,0 +1,145 @@
+/* Images used on this project are not mine. 
+Image Sources:
+https://www.travelorientalmindoro.ph/
+https://lh3.googleusercontent.com/ib1BfFXyr3CSEMMZyQlakeBmn8-96J23jV97-0pxZI_pIm1Ui12mc579RGVhW2MyI34UjCyvYAHpAmf9lzcNB7-w-wjby0WjkG5Z3wZo
+https://i0.wp.com/mindorotv.com/wp-content/uploads/2020/06/panorama.jpg?w=1895&ssl=1
+*/
+
+
+
+body {
+    text-align: center;
+    /* border: 2px solid blue; */
+    width: 700px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+    font-family: 'Cantora One', sans-serif;
+    background: linear-gradient(#FFEF82, #EFD345, #BABD42, #82954B);
+
+}
+
+.container {
+    margin: 8px;
+    /* border: 2px solid blue; */
+    border-radius: 15px;
+}
+
+.title-greeting {
+    height: 200px;
+    border-radius: 15px 15px 0px 0px;
+    background: url(images/panorama.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #FABB5A;
+    text-shadow: 0 0 8px black;
+}
+
+#hometown-dubbed {
+    color: #46AEFC;
+    text-shadow: 0 0 8px purple;
+}
+
+.top-three {
+    border: none;
+    background: #FFF2CC;
+    padding: 20px auto;
+
+
+
+}
+
+.activities {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: linear-gradient(#FFF2CC, #FFD966, #F4B183, #DFA67B);
+}
+
+.activity-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: 2px solid blue; */
+    margin: 5px 15px;
+    width: 155px;
+    height: 280px;
+
+}
+
+.activities-avatar {
+    margin-top: 5px;
+    width: 75px;
+    height: 75px;
+    /* border: 2px solid blue; */
+    border-radius: 50%;
+}
+
+.tour-guide {
+    padding: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 15px 15px;
+    background-color: white;
+}
+
+.about-guide {
+    padding: 10px;
+    margin: 20px auto;
+    width: 400px;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#DDFFBB, #C7E9B0, #B3C99C, #A4BC92);
+    border-radius: 10px;
+}
+
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.tour-guide-description {
+    /* border: 2px solid blue; */
+    padding: 0px 10px;
+    color: #584213;
+}
+
+.tour-guide-description h2 {
+    text-shadow: 0 0 8px #916B1A;
+}
+
+#hometown-label {
+    margin-top: 0;
+    padding-top: 25px;
+}
+
+#top-three-activities {
+    margin: 0;
+    padding: 15px 20px;
+    color: #02541F;
+    text-shadow: 0 0 5px rgb(66, 128, 0);
+}
+
+.activity-captions {
+    margin-bottom: 0;
+    height: 43px;
+    color: #1D4F02;
+
+
+}
+
+.activity-description {
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: normal;
+    color: #02541F;
+
+}
